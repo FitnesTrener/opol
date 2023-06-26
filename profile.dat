@@ -1,0 +1,5863 @@
+section.begin
+   Variables : struct.begin
+      name = 
+      sndmute = 0
+      sndmaster = 0,75
+      sndmusic = 0,75
+      sndambient = 0,75
+      sndfx = 0,75
+      sndvoice = 0,75
+      sndinterface = 0,5
+      keyscrollspeed = 0,5
+      mousescrollspeed = 0,5
+      middlemousescrollspeed = 0,5
+      wheelspeed = 0,5
+      igamespeed = 1
+      lastcampaignsave = 
+      lastcustomsave = 
+      netemail = 
+      netpass = 
+      netcdkey = 
+      bautosave = -1
+      bbrushunderunit = -1
+      bclipmouse = -1
+      bsearchenemyinfront = -1
+      binfiniteonleftclick = 0
+      bselectallunitsonz = 0
+      bfreezoom = 0
+      bDbgPreloadPatterns = 0
+      bDbgLogPointerNil = 0
+      bDbgVisualizePlayOnceProjFX = 0
+      bShowPause = -1
+      bShowMiniMap = -1
+      bcenterfirstrow = 0
+      bFamine = -1
+      bRestrictCamera = -1
+      bDbgCamera = 0
+      bDbgNoBrushes = 0
+      bDbgHotkeys = -1
+      bDbgUnitDebugInfo = 0
+      bDemo = 0
+      bNewMapOnMainMenu = -1
+      bCheatPlaceUnits = 0
+      bCheatNoFogOfWar = 0
+      bCheatSwitchPlayer = 0
+      bCheatPeaceMode = 0
+      bCheatNoSpeedLimit = 0
+      bCheatCopyPaste = 0
+      bCheatMoveUnits = 0
+      bCheatShowAllMissions = 0
+      bShowFPS = 0
+      bNoAchs = 0
+      bDevMode = 0
+      lang = .\data\locale\ru\table.lng
+      displaymode = dmWindowFullScreen
+      dontshowannouncement = 0
+      lastknowndlcs = 0
+      purchaseunixtime = 0
+   struct.end
+   UserStruct.gProfileUserStruct : struct.begin
+      custommap : struct.begin
+         name = 
+         gamestage = 0
+         lastenvuid = 0
+         dlcs = 0
+         brating = false
+         bbattle = false
+         battlestage = 0
+         battleind = 0
+         battlemap = 
+         settings : struct.begin
+            gen : struct.begin
+               randkey0 = 0
+               randkey1 = 0
+               mapsize = 0
+               terraintype = 0
+               relieftype = 0
+               resourcestart = 0
+               resourcemines = 0
+               season = 0
+            struct.end
+            additional : struct.begin
+               activeoption = 0
+               startingunits = 0
+               balloon = 0
+               cannons = 0
+               peacetime = 0
+               century18 = 0
+               capture = 0
+               marketdip = 0
+               teams = 0
+               autosave = 0
+               limit = 0
+               gamespeed = 0
+               adviserassistant = 0
+            struct.end
+         struct.end
+         players : struct.begin
+            [*] : struct.begin
+               id = 0
+               cid = 0
+               csid = 
+               name = 
+               team = 0
+               color = 0
+               lanid = 0
+               startx = 0
+               starty = 0
+               aidifficulty = 0
+               bexists = false
+               bai = false
+               bhuman = false
+               bclosed = false
+               bready = false
+               bloaded = false
+               bleave = false
+            struct.end
+            [*] : struct.begin
+               id = 0
+               cid = 0
+               csid = 
+               name = 
+               team = 0
+               color = 0
+               lanid = 0
+               startx = 0
+               starty = 0
+               aidifficulty = 0
+               bexists = false
+               bai = false
+               bhuman = false
+               bclosed = false
+               bready = false
+               bloaded = false
+               bleave = false
+            struct.end
+            [*] : struct.begin
+               id = 0
+               cid = 0
+               csid = 
+               name = 
+               team = 0
+               color = 0
+               lanid = 0
+               startx = 0
+               starty = 0
+               aidifficulty = 0
+               bexists = false
+               bai = false
+               bhuman = false
+               bclosed = false
+               bready = false
+               bloaded = false
+               bleave = false
+            struct.end
+            [*] : struct.begin
+               id = 0
+               cid = 0
+               csid = 
+               name = 
+               team = 0
+               color = 0
+               lanid = 0
+               startx = 0
+               starty = 0
+               aidifficulty = 0
+               bexists = false
+               bai = false
+               bhuman = false
+               bclosed = false
+               bready = false
+               bloaded = false
+               bleave = false
+            struct.end
+            [*] : struct.begin
+               id = 0
+               cid = 0
+               csid = 
+               name = 
+               team = 0
+               color = 0
+               lanid = 0
+               startx = 0
+               starty = 0
+               aidifficulty = 0
+               bexists = false
+               bai = false
+               bhuman = false
+               bclosed = false
+               bready = false
+               bloaded = false
+               bleave = false
+            struct.end
+            [*] : struct.begin
+               id = 0
+               cid = 0
+               csid = 
+               name = 
+               team = 0
+               color = 0
+               lanid = 0
+               startx = 0
+               starty = 0
+               aidifficulty = 0
+               bexists = false
+               bai = false
+               bhuman = false
+               bclosed = false
+               bready = false
+               bloaded = false
+               bleave = false
+            struct.end
+            [*] : struct.begin
+               id = 0
+               cid = 0
+               csid = 
+               name = 
+               team = 0
+               color = 0
+               lanid = 0
+               startx = 0
+               starty = 0
+               aidifficulty = 0
+               bexists = false
+               bai = false
+               bhuman = false
+               bclosed = false
+               bready = false
+               bloaded = false
+               bleave = false
+            struct.end
+            [*] : struct.begin
+               id = 0
+               cid = 0
+               csid = 
+               name = 
+               team = 0
+               color = 0
+               lanid = 0
+               startx = 0
+               starty = 0
+               aidifficulty = 0
+               bexists = false
+               bai = false
+               bhuman = false
+               bclosed = false
+               bready = false
+               bloaded = false
+               bleave = false
+            struct.end
+            [*] : struct.begin
+               id = 0
+               cid = 0
+               csid = 
+               name = 
+               team = 0
+               color = 0
+               lanid = 0
+               startx = 0
+               starty = 0
+               aidifficulty = 0
+               bexists = false
+               bai = false
+               bhuman = false
+               bclosed = false
+               bready = false
+               bloaded = false
+               bleave = false
+            struct.end
+            [*] : struct.begin
+               id = 0
+               cid = 0
+               csid = 
+               name = 
+               team = 0
+               color = 0
+               lanid = 0
+               startx = 0
+               starty = 0
+               aidifficulty = 0
+               bexists = false
+               bai = false
+               bhuman = false
+               bclosed = false
+               bready = false
+               bloaded = false
+               bleave = false
+            struct.end
+            [*] : struct.begin
+               id = 0
+               cid = 0
+               csid = 
+               name = 
+               team = 0
+               color = 0
+               lanid = 0
+               startx = 0
+               starty = 0
+               aidifficulty = 0
+               bexists = false
+               bai = false
+               bhuman = false
+               bclosed = false
+               bready = false
+               bloaded = false
+               bleave = false
+            struct.end
+            [*] : struct.begin
+               id = 0
+               cid = 0
+               csid = 
+               name = 
+               team = 0
+               color = 0
+               lanid = 0
+               startx = 0
+               starty = 0
+               aidifficulty = 0
+               bexists = false
+               bai = false
+               bhuman = false
+               bclosed = false
+               bready = false
+               bloaded = false
+               bleave = false
+            struct.end
+         struct.end
+         playersinfo : struct.begin
+            [*] : struct.begin
+               sic = 0
+               si1 = 0
+               si2 = 0
+               si3 = 0
+               snc = 
+               sn1 = 
+               sn2 = 
+               sn3 = 
+            struct.end
+            [*] : struct.begin
+               sic = 0
+               si1 = 0
+               si2 = 0
+               si3 = 0
+               snc = 
+               sn1 = 
+               sn2 = 
+               sn3 = 
+            struct.end
+            [*] : struct.begin
+               sic = 0
+               si1 = 0
+               si2 = 0
+               si3 = 0
+               snc = 
+               sn1 = 
+               sn2 = 
+               sn3 = 
+            struct.end
+            [*] : struct.begin
+               sic = 0
+               si1 = 0
+               si2 = 0
+               si3 = 0
+               snc = 
+               sn1 = 
+               sn2 = 
+               sn3 = 
+            struct.end
+            [*] : struct.begin
+               sic = 0
+               si1 = 0
+               si2 = 0
+               si3 = 0
+               snc = 
+               sn1 = 
+               sn2 = 
+               sn3 = 
+            struct.end
+            [*] : struct.begin
+               sic = 0
+               si1 = 0
+               si2 = 0
+               si3 = 0
+               snc = 
+               sn1 = 
+               sn2 = 
+               sn3 = 
+            struct.end
+            [*] : struct.begin
+               sic = 0
+               si1 = 0
+               si2 = 0
+               si3 = 0
+               snc = 
+               sn1 = 
+               sn2 = 
+               sn3 = 
+            struct.end
+            [*] : struct.begin
+               sic = 0
+               si1 = 0
+               si2 = 0
+               si3 = 0
+               snc = 
+               sn1 = 
+               sn2 = 
+               sn3 = 
+            struct.end
+            [*] : struct.begin
+               sic = 0
+               si1 = 0
+               si2 = 0
+               si3 = 0
+               snc = 
+               sn1 = 
+               sn2 = 
+               sn3 = 
+            struct.end
+            [*] : struct.begin
+               sic = 0
+               si1 = 0
+               si2 = 0
+               si3 = 0
+               snc = 
+               sn1 = 
+               sn2 = 
+               sn3 = 
+            struct.end
+            [*] : struct.begin
+               sic = 0
+               si1 = 0
+               si2 = 0
+               si3 = 0
+               snc = 
+               sn1 = 
+               sn2 = 
+               sn3 = 
+            struct.end
+            [*] : struct.begin
+               sic = 0
+               si1 = 0
+               si2 = 0
+               si3 = 0
+               snc = 
+               sn1 = 
+               sn2 = 
+               sn3 = 
+            struct.end
+         struct.end
+      struct.end
+      campaign : struct.begin
+         difficulty = 0
+         campprogress : struct.begin
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+            [*] : struct.begin
+               bexists = false
+               campname = 
+               missname = 
+               benabled = false
+               bvisible = false
+               started = 0
+               finished = 0
+               lose = 0
+               maxfinishdifficulty = 0
+               storestring = 
+            struct.end
+         struct.end
+      struct.end
+      achs : struct.begin
+         binit = false
+         ach : struct.begin
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+            [*] : struct.begin
+               achid = 0
+               achsid = 
+               goal = 0
+               cur = 0
+               status = 0
+               stringtag = 
+               bbitcoded = false
+            struct.end
+         struct.end
+      struct.end
+      adviserdefault : struct.begin
+         bvisible = false
+         benable = false
+         bavailable = false
+         bconstruct = false
+         beconomy = false
+         beconomyadvanced = false
+         bcontrolpeasants = false
+         bproducepeasants = false
+         brepairbuildings = false
+         bfillmines = false
+         bmarketadvises = false
+         bmanualresource = false
+         resonfood = 0
+         resonwood = 0
+         resonstone = 0
+         bupgrades = false
+         bupgradesunavailable = false
+         bquartermaster = false
+         bsetupguards = false
+         bproduceofficers = false
+         bshowsquads = false
+         settings = 0
+         version = 0
+      struct.end
+   struct.end
+section.end
+
